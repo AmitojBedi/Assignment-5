@@ -1,0 +1,59 @@
+.navbar.bg-light {
+  /* Background color or gradient */
+  background: linear-gradient(to right, #a8db8f, #6db07d);
+
+  /* Box shadow (outline or inset) */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-light .navbar-brand {
+  /* Cool font from "Google Fonts" */
+  font-family: 'Roboto', sans-serif;
+
+  /* New text color */
+  color: #fff;
+
+  /* Text shadow */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-nav .nav-link {
+  /* Cool font from "Google Fonts" */
+  font-family: 'Open Sans', sans-serif;
+
+  /* New text color */
+  color: #fff;
+}
+
+.navbar-nav .nav-link:hover {
+  /* New text color / hover color */
+  color: #007700;
+}
+
+body, html {
+  /* Full page gradient */
+  background: linear-gradient(to bottom, #b6f7ad, #7ddd8d);
+
+  /* Solid background color */
+  background-color: #b6f7ad;
+
+  /* Image (consider using "cover") */
+  background-image: url('your-image.jpg');
+  background-size: cover;
+}
+
+.btn-primary {
+  /* Solid background color */
+  background-color: #0070ff;
+
+  /* Gradient background */
+  background: linear-gradient(to right, #0070ff, #0038b3);
+
+  /* Box shadow (outline or inset) */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btn-primary:hover {
+  /* Different color for hover */
+  background-color: #0038b3;
+}
